@@ -169,3 +169,14 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
+# sensitive folders are excluded from Git tracking:
+closed-source/
+data/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+venv/
+**/.ipynb_checkpoints/
+**/.pytest_cache/
